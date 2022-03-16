@@ -1,0 +1,61 @@
+#title {
+
+    grid-area: title;
+}
+
+#text1 {
+    grid-area: text1;
+}
+#text2 {
+    grid-area: text2;
+}
+#text3 {
+    grid-area: text3;
+}
+#text4 {
+    grid-area: text4;
+}
+
+#img1 {
+    grid-area: img1;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
+.button__grid {
+    grid-area: button;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "title title"
+        "text1 img1"
+        "img2 text2"
+        "text3 img3"
+        "img4 text4"
+        "button button";
+    gap: 10px;
+    padding: 10px;
+    
+     & > * {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+     }
+     a {
+         display: block;
+         background-color: $color-primary;
+         color: white;
+         text-align: center;
+         align-items: center;
+         border-radius: 10px;
+         width: 200px;
+     }
+}
