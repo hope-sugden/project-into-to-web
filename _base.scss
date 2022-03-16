@@ -10,6 +10,7 @@ $color-primary: #394167;
 $color-secondary: #1cb9f1;
 $color-black: #333333;
 $color-white:#fafafa;
+$color-footer:#fefcdd;
 
 * {
     margin: 0;
@@ -23,4 +24,15 @@ $color-white:#fafafa;
 a:link,
 a:visited {
     text-decoration: none;
+}
+
+@media screen and (min-width:480px) {
+    body {
+        width:480
+    }
+}
+@media screen and (max-width:480px) {
+    body {
+        width:480
+    }
 }

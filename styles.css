@@ -15,6 +15,16 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (min-width: 480px) {
+  body {
+    width: 480;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 480;
+  }
+}
 .navigation {
   height: 10vh;
   padding: 0 40px;
@@ -112,6 +122,22 @@ a:visited {
   color: white;
   text-align: center;
   align-items: center;
+  justify-content: center;
   border-radius: 10px;
   width: 200px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefcdd;
+}
+.footer a {
+  border: none;
+  background-color: #fefcdd;
+  color: #394167;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
