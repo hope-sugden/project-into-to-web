@@ -47,13 +47,12 @@
      & > * {
         text-align: center;
         padding: 20px 0;
-        font-size: 30px;
+        font-size: 20px;
      }
      a {
          display: flex;
          background-color: $color-primary;
          color: white;
-         text-align: center;
          align-items: center;
          justify-content: center;
          border-radius: 10px;
@@ -61,4 +60,10 @@
          margin: auto;
          margin: auto;
      }
+}
+.bold {
+    font-weight: bolder;
+}
+.italics {
+    font-style: italic;
 }
