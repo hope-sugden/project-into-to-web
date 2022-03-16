@@ -50,7 +50,7 @@
         font-size: 30px;
      }
      a {
-         display: block;
+         display: flex;
          background-color: $color-primary;
          color: white;
          text-align: center;
@@ -58,5 +58,7 @@
          justify-content: center;
          border-radius: 10px;
          width: 200px;
+         margin: auto;
+         margin: auto;
      }
 }

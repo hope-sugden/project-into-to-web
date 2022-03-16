@@ -117,7 +117,7 @@ a:visited {
   font-size: 30px;
 }
 .grid a {
-  display: block;
+  display: flex;
   background-color: #394167;
   color: white;
   text-align: center;
@@ -125,6 +125,8 @@ a:visited {
   justify-content: center;
   border-radius: 10px;
   width: 200px;
+  margin: auto;
+  margin: auto;
 }
 
 .footer {
@@ -140,4 +142,37 @@ a:visited {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.info {
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+.info h3 {
+  font-size: 30px;
+  margin: 20px;
+}
+.info h4 {
+  color: #1cb9f1;
+  font-size: 25px;
+  margin: 20px;
+}
+.info p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.button__info {
+  display: flex;
+  background-color: #394167;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
