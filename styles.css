@@ -135,14 +135,20 @@ a:visited {
 
 .grid {
   display: grid;
-  grid-template-areas: "title title" "text1 img1" "img2 text2" "text3 img3" "img4 text4" "button button";
+  grid-template-areas: "title title title" "text1 text1 img1" "img2 text2 text2" "text3 text3 img3" "img4 text4 text4" "button button button";
   gap: 10px;
   padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .grid > * {
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
   font-size: 20px;
+}
+.grid h5 {
+  text-align: center;
+  font-size: 30px;
 }
 .grid a {
   display: flex;
