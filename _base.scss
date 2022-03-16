@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$font-logo: "Gloria Hallelujah", cursive;
+$font-display: "Fredoka", sans-serif;
+$font-body: "Lato", sans-serif;
+
+$color-primary: #394167;
+$color-secondary: #1cb9f1;
+$color-black: #333333;
+$color-white:#fafafa;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    color: $color-black;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
